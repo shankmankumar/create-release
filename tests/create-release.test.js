@@ -7,7 +7,7 @@ const { GitHub, context } = require('@actions/github');
 const fs = require('fs');
 const run = require('../src/create-release.js');
 
-/* eslint-disable no-unde */
+/* eslint-disable no-undef */
 describe('Create Release', () => {
   let createRelease;
 
